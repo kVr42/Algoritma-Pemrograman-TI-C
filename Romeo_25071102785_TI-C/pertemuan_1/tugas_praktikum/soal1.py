@@ -1,3 +1,4 @@
+#Soal 1
 # menyimpan nilai ke variabel
 nilai = 10
 

@@ -1,3 +1,4 @@
+#soal 2
 # menyimpan dua bilangan
 a = 5
 b = 10

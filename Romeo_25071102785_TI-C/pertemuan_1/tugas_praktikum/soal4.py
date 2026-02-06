@@ -1,3 +1,4 @@
+#soal 4
 # inisialisasi jumlah
 jumlah = 0
 
