@@ -19,7 +19,6 @@ def bilangan_prima(n):
         if is_prima:
             prima.append(num)
     return prima
-  
 # Memanggil fungsi untuk n = 50
 n = 50
 hasil = bilangan_prima(n)
