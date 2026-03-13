@@ -28,3 +28,16 @@ class Peminjaman:
 
     def ringkasan(self):
         print(f"Total denda: {self.total_denda}")
+
+# Contoh penggunaan
+buku1 = Buku("Buku 1", 1000)
+buku2 = Buku("Buku 2", 1500)
+buku3 = Buku("Buku 3", 2000)
+
+peminjaman = Peminjaman()
+for buku in [buku1, buku2, buku3]:
+    buku.tampilkan()
+
+hari_keterlambatan = int(input("Masukkan hari keterlambatan: "))
+peminjaman.tambah(buku1, hari_keterlambatan)
+peminjaman.ringkasan()
