@@ -64,7 +64,7 @@ class BinarySearchTree:
 
     # Traversal InOrder
     def traversal_inorder(self):
-        print("\n[INFO] Koleksi Buku (In-Order Traversal):")
+        print("\n[INFO] Koleksi Buku :")
         self._inorder_recursive(self.root)
 
     def _inorder_recursive(self, current):
